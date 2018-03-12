@@ -6,7 +6,7 @@ namespace nikitin\KeyStorage\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
-use nikitin\KeyStorage\Exceptions\TableAlredyExists;
+use nikitin\KeyStorage\Exceptions\TableAlredyExistsException;
 
 
 class CreateTable extends Command
@@ -34,7 +34,7 @@ class CreateTable extends Command
     public function handle()
     {
         if (Schema::connection(config('key-storage.connection'))->hasTable(config('key-storage.table'))) {
-            throw new TableAlredyExists('Table ' . config('key-storage.table') . ' already exists');
+            throw new TableAlredyExistsException('Table ' . config('key-storage.table') . ' already exists');
         }
 
         Schema::connection(config('key-storage.connection'))
