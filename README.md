@@ -1,7 +1,7 @@
 # KeyStorage
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
+[![Latest Stable Version](https://poser.pugx.org/nikitin/key-storage/v/stable)](https://packagist.org/packages/nikitin/key-storage)
+[![License](https://poser.pugx.org/nikitin/key-storage/license)](https://packagist.org/packages/nikitin/key-storage)
 
 
 
