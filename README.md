@@ -31,6 +31,7 @@ use nikitin\KeyStorage\Facades\KeyStorage;
 
 KeyStorage::set('test', [1,2,3,4,5,'test'=>321]);
 
+KeyStorage::get('test');
 result: 
     array:6 [
           0 => 1
