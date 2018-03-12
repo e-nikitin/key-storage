@@ -47,7 +47,10 @@ class KeyStorage
      * @return mixed
      */
     public function getType($key){
-        return $this->getByOption($key, 'type');
+        $typeId = $this->getByOption($key, 'type');
+        if (empty($typeId))
+            return;
+        return $this->getTypeById($typeId);
     }
 
     /**
@@ -97,6 +100,6 @@ class KeyStorage
             return $item->{$option};
         return;
     }
-
+    
 
 }
