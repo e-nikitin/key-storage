@@ -1,6 +1,8 @@
 # KeyStorage
 
 [![Latest Stable Version](https://poser.pugx.org/nikitin/key-storage/v/stable)](https://packagist.org/packages/nikitin/key-storage)
+[![Total Downloads](https://poser.pugx.org/nikitin/key-storage/downloads)](https://packagist.org/packages/nikitin/key-storage)
+[![Latest Unstable Version](https://poser.pugx.org/nikitin/key-storage/v/unstable)](https://packagist.org/packages/nikitin/key-storage)
 [![License](https://poser.pugx.org/nikitin/key-storage/license)](https://packagist.org/packages/nikitin/key-storage)
 
 
