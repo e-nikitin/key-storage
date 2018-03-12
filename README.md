@@ -11,14 +11,21 @@
 $ composer require nikitin/key-storage
 ```
 
-Add Service Provider
+**Publish config file**
+
+``` bash
+$ php artisan vendor:publish --tag=key-storage
+```
+
+**Add Service Provider**
 
 ``` php
 ...
  \nikitin\KeyStorage\KeyStorageServiceProvider::class
 ...
 ```
-And run
+
+**And run**
 ``` bash
 $ php artisan key-storage:create-table
 ```
