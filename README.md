@@ -50,19 +50,19 @@ result:
           4 => 5
           "test" => 321
         ]
+        
+// If you need key type
+  KeyStorage::getType('test');
+  result: "array"
+
+$inst = KeyStorage::getSelf();
+$inst->set('key', 'value');
+  or
+$result = $inst->get('key');
 ```
 
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/:vendor/KeyStorage.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/:vendor/KeyStorage/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/KeyStorage.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/KeyStorage.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/:vendor/KeyStorage.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/nikitin/key-storage
 
