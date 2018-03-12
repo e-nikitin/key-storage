@@ -1,0 +1,46 @@
+{
+    "name": "nikitin/key-storage",
+    "type": "library",
+    "description": "This package need for store Key => Value",
+    "keywords": [
+        "nikitin",
+        "KeyStorage",
+        "key-storage"
+    ],
+    "homepage": "https://github.com/nikitin/KeyStorage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":Evgenii Nikitin",
+            "email": "mail.nikitin@mail.ru",
+            "homepage": "http://nikitin.pw",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1",
+        "illuminate/support" : ">=5.5",
+        "nesbot/carbon": "^1.0"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=5.4.3",
+        "illuminate/database" : ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "nikitin\\KeyStorage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "nikitin\\KeyStorage\\": "tests"
+        }
+    },
+    "scripts": {
+        
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
