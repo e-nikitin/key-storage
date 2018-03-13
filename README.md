@@ -55,7 +55,6 @@ result:
 
 $inst = KeyStorage::getSelf();
 $inst->set('key', 'value');
-  or
 $result = $inst->get('key');
 ```
 
