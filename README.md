@@ -32,6 +32,13 @@ $ php artisan key-storage:create-table
 
 ## Usage
 
+**Supported data types**
+  - integer
+  - string
+  - boolean
+  - array
+  - *serializable object
+
 ``` php
 use nikitin\KeyStorage\Facades\KeyStorage;
 ...
